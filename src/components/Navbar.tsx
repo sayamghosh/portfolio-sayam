@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa";
 export default function Navbar() {
     const navItems = ["Skills", "Projects", "Contact"]
   return (
-    <nav className='w-full mt-2'>
+    <nav className='w-full pt-2'>
         <div className='max-w-screen-lg mx-auto flex justify-between items-center py-2 px-4 rounded-full bg-white/10 backdrop-blur-lg border border-white/20 shadow-lg'>
             <div className='group_left flex gap-4 tracking-wider'>
                 {navItems.map((item,index)=>(

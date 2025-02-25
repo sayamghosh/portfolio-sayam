@@ -5,9 +5,9 @@ import { Button } from "@/components/ui/button";
 
 export default function Hero() {
   return (
-    <section className="w-full h-full">
-      <div className="max-w-screen-lg mx-auto flex max-sm:flex-col items-center max-sm:justify-center justify-between gap-6 h-full">
-        <div className="max-sm:w-[90%] w-1/2 bg-blue-100 p-3 rounded-md">
+    <section className="w-full xl:h-screen">
+      <div className="max-w-screen-lg mx-auto flex max-xl:flex-col items-center max-sm:justify-center justify-between gap-6 h-full mt-4">
+        <div className="w-[90%] md:w-[70%] bg-blue-100 p-3 rounded-md">
           <div className="" >
             <h1 className="text-3xl font-semibold"> Hi, I&apos;m Sayam 👋</h1> <p className="text-lg mt-2"> I&apos;m a Next.js front-end developer
             passionate about crafting sleek, high-performance web applications.

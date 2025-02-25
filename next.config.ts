@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const nextConfig = {
+  images: {
+    domains: [
+      "www.shutterstock.com",// Added the missing domain
+    ],
+  },
 };
 
 export default nextConfig;
