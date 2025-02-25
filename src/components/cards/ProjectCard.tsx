@@ -6,7 +6,7 @@ export default function ProjectCard() {
   //TODO: Add dynamic data
   return (
     <div className="w-72 h-64 lg:w-[80%] xl:w-full rounded-lg p-4 border border-gray-300 bg-slate-300 flex relative">
-      <div className="w-full md:w-1/2 flex flex-col gap-2">
+      <div className="w-full lg:w-1/2 flex flex-col gap-2">
         <Image
           className="rounded-md"
           src={
@@ -26,7 +26,7 @@ export default function ProjectCard() {
           <span>Demo</span> <MoveRight />{" "}
         </h2>
       </div>
-      <div className="hidden md:flex items-center h-full justify-center  w-1/2">
+      <div className="hidden lg:flex items-center h-full justify-center  w-1/2">
         <Image  //TODO: how to make the image size larger
           src={"/demopic.png"}
           alt="demo"
