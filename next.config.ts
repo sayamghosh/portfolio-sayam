@@ -1,11 +1,15 @@
-import type { NextConfig } from "next";
-
+// next.config.js
 const nextConfig = {
   images: {
-    domains: [
-      "www.shutterstock.com",// Added the missing domain
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'www.shutterstock.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
