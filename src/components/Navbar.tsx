@@ -3,16 +3,18 @@ import React from 'react'
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
+import IndianFlag from './easterEgg/Indianflag';
 
 export default function Navbar() {
     const navItems = ["Skills", "Projects", "Contact"]
   return (
     <nav className='w-full pt-2'>
         <div className='max-w-screen-lg mx-auto flex justify-between items-center py-2 px-4 rounded-full bg-white/10 backdrop-blur-lg border border-white/20 shadow-lg'>
-            <div className='group_left flex gap-4 tracking-wider'>
+            <div className='group_left items-center flex gap-4 tracking-wider'>
                 {navItems.map((item,index)=>(
                     <Link href={`#${item}`} key={index} >{item}</Link>
                 ))}
+                <IndianFlag />
                 
             </div>
             <div className='group_right flex gap-3'>

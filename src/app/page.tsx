@@ -7,6 +7,7 @@ import Projects from '@/components/Projects'
 export default function Page() {
   return (
     <div className='w-full h-full min-h-screen pb-10'>
+      {/* <IndianFlag /> */}
       <Navbar />
       <Hero />
       <Projects />
