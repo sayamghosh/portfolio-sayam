@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <section className="w-full xl:h-screen bg-[#161513] mx-auto flex max-xl:flex-col items-center p-4 max-sm:justify-center justify-between gap-10 h-full">
       {/* Text Section */}
-      <div className="">
+      <div className="w-full">
         <div className="">
           <h1 className="text-4xl font-semibold uppercase text-white">
             {" "}
