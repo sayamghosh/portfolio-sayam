@@ -158,7 +158,7 @@ const IndianFlag = () => {
   }, []);
 
   return (
-    <div className="absolute top-1/2 -translate-y-[50%] -left-16 w-[50px] h-[40px] bg-gradient-to-br from-slate-50 to-blue-50 rounded-lg p-1 cursor-pointer" onClick={throwFlowers}>
+    <div className="w-[2.6rem] h-[2rem] bg-gradient-to-br from-slate-50 to-blue-50 rounded-lg  cursor-pointer" onClick={throwFlowers}>
       <div className="relative h-full">
         {/* Flag Container */}
         <div className="relative bg-white rounded-md shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 h-full">
