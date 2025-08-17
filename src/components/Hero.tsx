@@ -56,8 +56,6 @@ export default function Hero() {
         <Image
           src={"/profile.jpg"}
           alt="profile"
-          placeholder="blur" 
-          blurDataURL="/profile-blur.jpg"
           height={300}
           width={300}
         ></Image>

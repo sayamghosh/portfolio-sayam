@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function ProjectCard() {
   //TODO: Add dynamic data
   return (
-    <div className="w-72 h-64 lg:w-[80%] xl:w-full rounded-lg p-4 border border-gray-300 bg-slate-300 flex relative">
+    <div className="w-72 h-64 lg:w-[80%] xl:w-full rounded-lg p-4 border bg-[#1A1A1A] flex relative">
       <div className="w-full lg:w-1/2 flex flex-col gap-2">
         <Image
           className="rounded-md"
