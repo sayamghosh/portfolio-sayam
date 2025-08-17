@@ -5,10 +5,10 @@ import IndianFlag from "./easterEgg/Indianflag";
 export default function Navbar() {
   const navItems = ["Skills", "Projects", "Contact"];
   return (
-    <nav className="w-full py-2 px-4 flex items-center bg-[#222222] ">
+    <nav className="w-full p-3 px-5 flex items-center bg-[#222222] max-w-5xl rounded-b-xl mx-auto">
       <IndianFlag />
       <div className="w-fit ml-auto">
-        <div className="flex items-center justify-end text-white gap-4 py-2 w-full ">
+        <div className="flex items-center justify-end text-white gap-4 w-full ">
           {navItems.map((item, index) => (
             <Link href={`#${item}`} key={index}>
               {item}
