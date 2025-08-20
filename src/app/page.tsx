@@ -1,16 +1,19 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import Hero from '@/components/Hero'
-import Projects from '@/components/Projects'
-
+import React from "react";
+import Navbar from "../components/Navbar";
+import Hero from "@/components/Hero";
+import Projects from "@/components/Projects";
 
 export default function Page() {
   return (
-    <div className='w-full h-full min-h-screen pb-10'>
-      {/* <IndianFlag /> */}
-      <Navbar />
-      <Hero />
+    <div className="w-full h-full min-h-screen pb-10">
+      <div className="w-full border-b-[1px] border-zinc-700">
+        <Navbar />
+      </div>
+      <div className="w-full border-b-[1px] border-zinc-700">
+        <Hero />
+      </div>
+
       <Projects />
     </div>
-  )
+  );
 }

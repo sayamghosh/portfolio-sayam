@@ -3,16 +3,19 @@ import ProjectCard from "@/components/cards/ProjectCard";
 
 export default function Projects() {
   return (
-    <section className="w-full mt-20">
-      <div className="max-w-screen-lg mx-auto flex items-center justify-center pb-7">
-        <h1 className="font-serif font-semibold text-2xl">Projects</h1>
-      </div>
-      <div className="max-w-screen-lg w-full  mx-auto grid grid-cols-1 xl:grid-cols-2 gap-10 place-items-center">
-        {/* TODO: Add dynamic data */}
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+    <section className="w-full flex flex-col items-center">
+      <h4 className="text-white text-3xl font-semibold uppercase font py-8">
+        Projects
+      </h4>
+
+      {/* Project cards */}
+      <div className="w-full px-8 border-y-[1px] ">
+        <div className="lg:grid xl:grid-cols-2 place-items-center max-w-6xl mx-auto">
+          <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
+        </div>
       </div>
     </section>
   );
