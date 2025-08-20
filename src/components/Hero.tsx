@@ -12,7 +12,7 @@ const montserrat = Montserrat({
 
 export default function Hero() {
   return (
-    <section className="w-full bg-[#161513] sm:py-16 md:py-20 lg:py-22 mx-auto flex flex-col sm:flex-row items-center p-4 max-sm:justify-center justify-between gap-10 h-full max-w-6xl lg:border-b lg:border-b-zinc-700">
+    <section className="w-full bg-[#161513] sm:py-16 md:py-20 lg:py-22 mx-auto flex flex-col sm:flex-row items-center p-4 max-sm:justify-center justify-between gap-10 h-full max-w-6xl lg:border-b lg:border-b-zinc-700 border-x-[1px] border-x-zinc-500">
       {/* Text Section */}
       <div className="w-full sm:max-w-[30rem]">
         <div className="">
