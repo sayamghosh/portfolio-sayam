@@ -9,8 +9,8 @@ export default function Projects() {
       </h4>
 
       {/* Project cards */}
-      <div className="w-full px-8 border-y-[1px] ">
-        <div className="lg:grid xl:grid-cols-2 place-items-center max-w-6xl mx-auto">
+      <div className="w-full px-4 border-y-[1px] ">
+        <div className="lg:grid lg:grid-cols-2 place-items-center max-w-6xl mx-auto">
           <ProjectCard />
           <ProjectCard />
           <ProjectCard />
